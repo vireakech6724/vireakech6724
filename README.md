@@ -6,5 +6,8 @@
 <p align="center"> <img src="https://skillicons.dev/icons?i=html,css,js,react,vue,nodejs,python,php,git,figma,firebase,vercel&theme=dark&perline=6" /> </p>
 <p align="center">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=vireakech6724&theme=highcontrast&background=0d1117&stroke=ff4500&ring=ff4500&fire=ff4500&hide_border=true" width="48%" /> </p>
+<p align="center">
+  <img src="https://stats.pphat.top/stats?username=keavireakech6724&avatar_mode=radar&data_border_style=solid&data_border_frame_position=in&color=red" />
+</p>
 <p align="center"> </p>
  </p><p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=FF0000&height=100&section=footer" width="100%" /> </p>
