@@ -1,41 +1,39 @@
-name: Generate Snake
-
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    # Runs at 12am UTC every day
+    - cron: "0 0 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
     steps:
-      # Checkout the repo
-      - uses: actions/checkout@v3
-
-      # Generate the snake GIF
-      - uses: Platane/snk@master
-        id: snake-gif
+      # Step 1: Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
         with:
-          github_user_name: vireakech6724
-          gif_out_path: dist/github-contribution-grid-snake.gif
-          svg_out_path: dist/github-contribution-grid-snake.svg
-
-      # Show git status (optional)
-      - run: git status
-
-      # Push changes to main
-      - name: Push changes
-        uses: ad-m/github-push-action@master
+          fetch-depth: 0
+      
+      # Step 2: Generate the snake files
+      - name: Generate GitHub Contribution Snake
+        uses: Platane/snk@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
-          force: true
-
-      # Optional: Deploy to GitHub Pages
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake-light.svg?palette=github-light
+      
+      # Step 3: Push to output branch
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
