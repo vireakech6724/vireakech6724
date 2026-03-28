@@ -1,3 +1,4 @@
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=FF0000&height=180&section=header&text=NHOA%20KEAVIREAKECH&fontSize=40&fontColor=F8F8FF&animation=twinkling&fontAlignY=35" width="100%" />
 </p>
@@ -10,6 +11,11 @@
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=vireakech6724&theme=react-dark&bg_color=0d1117&color=ff4500&line=ff4500&point=ff914d&area=true&hide_border=true&radius=10" width="95%" /> </p>
 <p align="center"> <img src="https://skillicons.dev/icons?i=html,css,js,react,vue,nodejs,python,php,git,figma,firebase,vercel&theme=dark&perline=6" /> </p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/vireakech6724/vireakech6724/blob/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/vireakech6724/vireakech6724/blob/output/github-contribution-grid-snake-light.svg"/>
+  <img alt="github-snake" src="https://github.com/vireakech6724/vireakech6724/blob/output/github-contribution-grid-snake.svg" width="100%"/>
+</picture>
 <p align="center">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=vireakech6724&theme=highcontrast&background=0d1117&stroke=ff4500&ring=ff4500&fire=ff4500&hide_border=true" width="48%" /> </p>
 <p align="center">
