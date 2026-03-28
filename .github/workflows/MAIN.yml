@@ -13,8 +13,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Checkout repo
       - uses: actions/checkout@v3
 
+      # Generate snake
       - name: Generate snake
         uses: Platane/snk@v3
         with:
@@ -22,7 +24,7 @@ jobs:
           gif_out_path: dist/github-contribution-grid-snake.gif
           svg_out_path: dist/github-contribution-grid-snake.svg
 
-      # ✅ Safe commit (no crash if nothing changed)
+      # Commit safely (no crash if no changes)
       - name: Commit files
         run: |
           git config user.name "github-actions[bot]"
@@ -30,7 +32,11 @@ jobs:
           git add dist/ || true
           git diff --cached --quiet || git commit -m "update snake"
 
-      # ✅ Safe push (with permission)
+      # Pull latest (avoid conflicts)
+      - name: Pull latest
+        run: git pull origin main --rebase
+
+      # Push with permission
       - name: Push changes
         run: |
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/vireakech6724/vireakech6724.git main
