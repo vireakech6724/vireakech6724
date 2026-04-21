@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=FF0000&height=180&section=header&text=NHOA%20KEAVIREAKECH&fontSize=50&fontColor=F8F8FF&animation=twinkling&fontAlignY=35" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=FF0000&height=180&section=header&text=SRUN%20KEAVIREAKECH&fontSize=50&fontColor=F8F8FF&animation=twinkling&fontAlignY=35" width="100%" />
 </p>
 <p align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Fredoka+One&size=30&pause=1500&color=FF4500&center=true&vCenter=true&width=650&lines=YEAR+2+STUDENT+%7C+FRONT-END+DEVELOPER+🔥;BUILDING+MODERN+WEB+EXPERIENCES+💻;PASSIONATE+ABOUT+UI%2FUX+DESIGN+🎨;PHNOM+PENH%2C+CAMBODIA+🇰🇭;CODE.+CREATE.+INNOVATE.+🚀" alt="Typing"/></p>
 
