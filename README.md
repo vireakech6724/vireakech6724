@@ -16,6 +16,13 @@
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/vireakech6724/vireakech6724/blob/output/github-contribution-grid-snake-light.svg"/>
   <img alt="github-snake" src="https://github.com/vireakech6724/vireakech6724/blob/output/github-contribution-grid-snake.svg" width="100%"/>
 </picture>
+
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=vireakech6724&theme=dark&no-frame=true&no-bg=true&margin-w=4&row=1&column=6" width="63%"/>
+</p>
+
+
 <p align="center">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=vireakech6724&theme=highcontrast&background=0d1117&stroke=ff4500&ring=ff4500&fire=ff4500&hide_border=true" width="48%" /> </p>
 <p align="center">
